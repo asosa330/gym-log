@@ -1,0 +1,12 @@
+{
+  "name": "gym-log-dev",
+  "private": true,
+  "description": "Tests for Gym Log. Not needed to host or use the app.",
+  "scripts": {
+    "test": "node --test logic.test.js e2e.test.js",
+    "test:logic": "node --test logic.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}
